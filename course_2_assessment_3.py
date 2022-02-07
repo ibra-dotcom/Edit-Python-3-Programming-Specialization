@@ -91,4 +91,14 @@ for c in yoo:
         low_d[c] = 0
     low_d[c] = low_d[c] + 1
 
-#
+
+    
+# Write a function named total that takes a list of integers as input, and returns the total value of all those integers added together.
+
+def total(y):
+    c = 0
+    for x in y:
+        c = c + x
+    return c
+
+print(total([1,2,3,4,5]))
