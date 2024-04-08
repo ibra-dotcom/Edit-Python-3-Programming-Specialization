@@ -9,4 +9,6 @@ def factorial(n):
 num = 8
 print("Factorial of", num, "is", factorial(num))
 
-#Note on recursion: here factorial(n) called itself n-1 until it reaches 0.
+#Note on recursion: 
+
+
